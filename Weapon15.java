@@ -19,6 +19,8 @@ public class Weapon15 {
             }
         }else{
              System.out.print("Please Choose your combat (close/ranged) ");
+             System.out.print("Is your combat close? (true/false): ");
+             combat = sc.nextBoolean();
     }
 }
 
