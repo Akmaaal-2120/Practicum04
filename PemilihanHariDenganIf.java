@@ -10,7 +10,7 @@ public class PemilihanHariDenganIf {
         System.out.print("Enter your number : ");
         numbers = sc.nextInt();
 
-        if(numbers > 1 && numbers <= 5){
+        if(numbers >= 1 && numbers <= 5){
             System.out.println("Weekday");
         }else if(numbers == 6 || numbers == 7){
             System.out.println("Weekend");
